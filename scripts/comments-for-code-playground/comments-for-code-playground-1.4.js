@@ -4,7 +4,7 @@
 // @version      1.4
 // @description  View and write comments in code playground
 // @author       DonDejvo
-// @match        https://www.sololearn.com/compiler-playground/*
+// @match        https://www.sololearn.com/*/compiler-playground/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=sololearn.com
 // @grant        none
 // @license MIT
