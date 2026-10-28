@@ -619,7 +619,8 @@ const main = async () => {
 
     const userId = JSON.parse(localStorage.getItem("user")).data.id;
     const accessToken = Store._getToken();
-    const publicId = window.location.pathname.split("/")[2];
+    const pathnameTokens = window.location.pathname.split("/");
+    const publicId = pathnameTokens[pathnameTokens.length - 1];
 
     await Store.login(
         userId,
